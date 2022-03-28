@@ -99,8 +99,6 @@ If your laptop does not come with a Wi-Fi device that supports monitor mode, you
 
 ![wifi usb ](/assets/ArticleImg/Wifi/alfahalf.png "Alfa AWUS036NHA WIFI USB adaptor")
 
-hhhh
-
 I would recommend the [Alfa AWUS036NHA WIFI USB adaptor](https://www.alfa.com.tw/products/awus036nha?variant=36473966166088)
 It is the affordable gold standard for Wi-Fi packet capturing in the Wi-Fi hacking community and it has the proper chipset and drivers to be put into monitor mode on most modern computers.
 
@@ -200,7 +198,7 @@ The disruptive approach is ideal if you only have short window of time to access
 
 This approach works by actively kicking the client off of the network forcing them to automatically rejoin giving up their 4-way handshake to anyone monitoring the network. The way the attacker kicks the client off the network is by sending deauthentication-packets to the MAC address of a connected client; the clients MAC address can be obtained by simply monitoring the network. These deauthentication-packets act somewhat like a DDOS attack on the connected client by overwhelming them with incoming packets until they disconnect from the network and try to reconnect again.
 
-  <p align = center> <img src="/assets/ArticleImg/Wifi/loudDia.png" />    </p>
+  <p align = center> <img src="/assets/ArticleImg/Wifi/louddia.png" />    </p>
 
 An example of the above scenario would be if you have a short 30min tour though a restricted section of a corporate office building that had a special separate network for the executives of the company. You wouldn’t have time to wait for one of the executives to disconnect and reconnect to the network and give you the 4-way handshake, so you would pick an executive devices MAC address and send deauthentication-packets until it was kicked of the executive network. Once the device reconnects to the network while you are listening to it, the 4-way handshake would be captured in a relatively short amount of time.
 
