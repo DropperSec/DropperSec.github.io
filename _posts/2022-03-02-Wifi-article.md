@@ -97,7 +97,7 @@ If you see a result something like this you are all set to go! You have a Wi-Fi 
 
 If your laptop does not come with a Wi-Fi device that supports monitor mode, you can purchase a USB Wi-Fi card that plugs into your computer. USB Wi-Fi cards have a much higher omnidirectional range than what your typical Wi-Fi laptop chip would and have an option to use directional antennas.
 
-![wifi usb ](/assets/ArticleImg/Wifi/alfaHalf.png "Alfa AWUS036NHA WIFI USB adaptor")
+![wifi usb ](/assets/ArticleImg/Wifi/alfahalf.png "Alfa AWUS036NHA WIFI USB adaptor")
 
 I would recommend the [Alfa AWUS036NHA WIFI USB adaptor](https://www.alfa.com.tw/products/awus036nha?variant=36473966166088)
 It is the affordable gold standard for Wi-Fi packet capturing in the Wi-Fi hacking community and it has the proper chipset and drivers to be put into monitor mode on most modern computers.
