@@ -25,7 +25,7 @@ minima:
   social_links:
     twitter:
       url: https://twitter.com/
-    github:
+    github: 
       url: https://github.com/DropperSec
     # devto: jekyll
     # dribbble: jekyll
