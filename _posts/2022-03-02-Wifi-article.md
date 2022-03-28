@@ -99,6 +99,8 @@ If your laptop does not come with a Wi-Fi device that supports monitor mode, you
 
 ![wifi usb ](/assets/ArticleImg/Wifi/alfahalf.png "Alfa AWUS036NHA WIFI USB adaptor")
 
+hhhh
+
 I would recommend the [Alfa AWUS036NHA WIFI USB adaptor](https://www.alfa.com.tw/products/awus036nha?variant=36473966166088)
 It is the affordable gold standard for Wi-Fi packet capturing in the Wi-Fi hacking community and it has the proper chipset and drivers to be put into monitor mode on most modern computers.
 
