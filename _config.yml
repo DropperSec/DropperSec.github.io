@@ -1,0 +1,88 @@
+title: DropperSec's Blog
+author:
+  name: DropperSec
+  email: DropperSec@protonmail[.]com
+description: > # this means to ignore newlines until "show_excerpts:"
+  This blog is a way to show off all the porjects I'm working on to the community.
+
+show_excerpts: true # set to true to show excerpts on the homepage
+excerpt_separator: <!--cut-->
+paginate: 5
+
+# Disqus comments
+disqus:
+  shortname:  DropperSec
+
+# Google Analytics
+google_analytics: 
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter:
+      url: https://twitter.com/
+    github:
+      url: https://github.com/DropperSec
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    keybase:
+      url: https://keybase.io
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+theme: minima
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  - jekyll-toc
+
+header_pages:
+  - pages/about2.md
+  - pages/posts.md
+  - pages/categories.md
+  #- pages/tags.md
+  #- pages/cheatsheet.md
+  #- index.html
+  - pages/FutureProjects.md
+  ##########
+
+category_page: /categories
+tag_page: /tags
