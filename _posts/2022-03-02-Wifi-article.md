@@ -187,7 +187,7 @@ If you have prolonged access to yours targets AP and you don’t want to alert d
 
 This approach works by waiting until clients that are connected to a network leave the network and have to re-authenticate upon wanting to rejoin the network. While they are rejoining they have to perform a 4-way handshake in order to re-authenticate themselves and access the network again. If we monitor the traffic whenever they are reconnecting we can capture the necessary information from the 4-way handshake to perform an offline hash cracking attack offsite.
 
-  <p align = center> <img src="/assets/ArticleImg/Wifi/QuietDia2.png" />    </p>
+  <p align = center> <img src="/assets/ArticleImg/Wifi/quietdia2.png" />    </p>
   
 An example of the above scenario would be if you were tasked with testing the security of a corporate office buildings wireless network. At the end of a work day all of the employees would leave with their wireless devices, such as cellphones and laptops, disconnecting from the wireless network. If you set up in range of the corporate network the next morning and monitor it you can capture all of the employees reconnecting to the corporate network. Doing this you will capture their devices 4-way handshakes which is all you need to perform an offline hash cracking attack.
 
