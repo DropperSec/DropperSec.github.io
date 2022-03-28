@@ -206,6 +206,9 @@ This approach works by actively kicking the client off of the network forcing th
 assets\ArticleImg\Wifi\quietdia2.png
 
 
+hello is this going 
+
+
 <p align = center> <img src="/assets/ArticleImg/Wifi/tPic1.png" />    </p>
 
 
