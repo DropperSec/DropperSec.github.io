@@ -187,9 +187,7 @@ If you have prolonged access to yours targets AP and you don’t want to alert d
 
 This approach works by waiting until clients that are connected to a network leave the network and have to re-authenticate upon wanting to rejoin the network. While they are rejoining they have to perform a 4-way handshake in order to re-authenticate themselves and access the network again. If we monitor the traffic whenever they are reconnecting we can capture the necessary information from the 4-way handshake to perform an offline hash cracking attack offsite.
 
-<p align = center> <img src="/assets/ArticleImg/Wifi/quietdia3.jpg" />    </p>
-
-huuuuiiiiii 
+<p align = center> <img src="/assets/ArticleImg/Wifi/quietdia3.jpg" />    </p> 
 
 An example of the above scenario would be if you were tasked with testing the security of a corporate office buildings wireless network. At the end of a work day all of the employees would leave with their wireless devices, such as cellphones and laptops, disconnecting from the wireless network. If you set up in range of the corporate network the next morning and monitor it you can capture all of the employees reconnecting to the corporate network. Doing this you will capture their devices 4-way handshakes which is all you need to perform an offline hash cracking attack.
 
@@ -199,8 +197,6 @@ An example of the above scenario would be if you were tasked with testing the se
 The disruptive approach is ideal if you only have short window of time to access the targets AP. This attack will alert active defenders and will leave evidence of the attack in the routers log files. 
 
 This approach works by actively kicking the client off of the network forcing them to automatically rejoin giving up their 4-way handshake to anyone monitoring the network. The way the attacker kicks the client off the network is by sending deauthentication-packets to the MAC address of a connected client; the clients MAC address can be obtained by simply monitoring the network. These deauthentication-packets act somewhat like a DDOS attack on the connected client by overwhelming them with incoming packets until they disconnect from the network and try to reconnect again.
-
-heyyyyyyy
 
 <p align = center> <img src="/assets/ArticleImg/Wifi/louddia2.jpg" />    </p>
 
